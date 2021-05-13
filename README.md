@@ -14,6 +14,42 @@
 ### 期望职位
 以太类区块链开发，远程或者北京
 
+### 个人项目
+##### AGIC
+##### 2020.9-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全栈
+
+#### 项目介绍
+区块链项目，质押eth铸币同时生息，抽取利息的5%存入资金池，发布股权卡nft，根据面额可以提取资金池中的利息
+
+- 合约只发布到了kovan
+- vue编写页面，有自适应和i18n功能，使用web3调用合约
+- 后端服务使用node记录订单和监听合约事件
+
+#### 使用技术
+- sol + node + vue + web3
+- mongo
+
+#### 连接
+[Agic.link](https://agic.link/)
+
+<br>
+
+##### Let's ssl
+##### 2020.2-2020.3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全栈
+
+#### 项目介绍
+使用Let's Encrypt签名证书，分为后端和前端两部分
+
+- vue编写页面，有自适应
+- 后端服务使java调用相关接口
+
+#### 使用技术
+- java + vue
+- mysql
+
+#### 连接
+[Let's SSL.com](https://letsssl.com/)
+
 ### 工作经历
 
 ##### 北京葫芦简医科技有限公司
@@ -115,39 +151,3 @@
 #### 工作内容:
 1. 接入新支付通道
 2. 商户管理后台以及管理后台的数据查询、分析等功能开发
-
-### 个人项目
-##### AGIC
-##### 2020.9-至今 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全栈
-
-#### 项目介绍
-区块链项目，质押eth铸币同时生息，抽取利息的5%存入资金池，发布股权卡nft，根据面额可以提取资金池中的利息
-
-- 合约只发布到了kovan
-- vue编写页面，有自适应和i18n功能，使用web3调用合约
-- 后端服务使用node记录订单和监听合约事件
-
-#### 使用技术
-- sol + node + vue + web3
-- mongo
-
-#### 连接
-[Agic.link](https://agic.link/)
-
-<br>
-
-##### Let's ssl
-##### 2020.2-2020.3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全栈
-
-#### 项目介绍
-使用Let's Encrypt签名证书，分为后端和前端两部分
-
-- vue编写页面，有自适应
-- 后端服务使java调用相关接口
-
-#### 使用技术
-- java + vue
-- mysql
-
-#### 连接
-[Let's SSL.com](https://letsssl.com/)
