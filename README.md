@@ -7,16 +7,16 @@
 
 ### 个人能力
 
+- 自学以太类开发生态，如sol、node、web3、vue
 - 5年java开发，标准java开发生态，如spring、sql、maven、gradle等
 - 集群运维，如docker、k8s、gitlab runner等自动化运维
-- 自学以太类开发生态，如sol、node、web3、vue
 
 ### 期望职位
 以太类区块链开发，远程或者北京
 
 ### 个人项目
 ##### AGIC
-##### 2020.9-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全栈
+##### 2020.9-2021.8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全栈
 
 #### 项目介绍
 区块链项目，质押eth铸币同时生息，抽取利息的5%存入资金池，发布股权卡nft，根据面额可以提取资金池中的利息
@@ -51,6 +51,24 @@
 [Let's SSL.com](https://letsssl.com/)
 
 ### 工作经历
+
+##### 北京纬颐科技有限公司
+##### 2021.5-2021.10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sol智能合约开发
+#### 项目介绍
+1类用户自定义创建资金池，自定金资金池预言机；2类用户进行杠杆买多买空，发放nft的购买凭证。后续功能以及设计:
+
+1. factory创建资金池，配置token、参数以及预言机，为nft合约沟通不同资金池提供router功能
+2. 资金池内下单、平仓以及超越爆仓阈值的强平
+3. nft合约沟通业务功能，以及常规的展示功能
+
+### 使用技术
+sol + node + truffle + openzeppelin
+
+#### 工作内容
+1. 完成合约的内部功能
+2. 编写truffle部署脚本以及测试用例
+
+<br>
 
 ##### 北京葫芦简医科技有限公司
 ##### 2020.3-2021.3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 后端+运维
