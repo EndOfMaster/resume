@@ -7,16 +7,19 @@
 
 ### 个人能力
 
-- 自学以太类开发生态，如sol、node、web3、vue
+- 自学evm开发生态，如sol、node、web3
 - 5年java开发，标准java开发生态，如spring、sql、maven、gradle等
 - 集群运维，如docker、k8s、gitlab runner等自动化运维
+- 前端非样式开发，vue、element
 
 ### 期望职位
 以太类区块链开发，远程或者北京
 
+---
+
+
 ### 个人项目
-##### AGIC
-##### 2020.9-2021.8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全栈
+#### AGIC
 
 #### 项目介绍
 区块链项目，质押eth铸币同时生息，抽取利息的5%存入资金池，发布股权卡nft，根据面额可以提取资金池中的利息
@@ -25,17 +28,30 @@
 - vue编写页面，有自适应和i18n功能，使用web3调用合约
 - 后端服务使用node记录订单和监听合约事件
 
-#### 使用技术
+##### 使用技术
 - sol + node + vue + web3
 - mongo
 
-#### 连接
+##### 连接
 [Agic.link](https://agic.link/)
 
 <br>
 
-##### Let's ssl
-##### 2020.2-2020.3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全栈
+#### 峰链凭证
+#### 项目介绍
+一种部署在招行一链通的购买、交易、核销的nft凭证<br>
+由于可能无法使用ipfs等文件存储技术，采用了和uniV3一样的链接只返回生成的svg图片模式
+
+##### 使用技术
+- sol + node + web3
+- 独立运行仿evm节点
+
+##### 连接
+[chainpeak](https://github.com/nipeak/nipeak-digital-copyright-cmbchain)
+
+<br>
+
+#### Let's ssl
 
 #### 项目介绍
 使用Let's Encrypt签名证书，分为后端和前端两部分
@@ -43,12 +59,14 @@
 - vue编写页面，有自适应
 - 后端服务使java调用相关接口
 
-#### 使用技术
+##### 使用技术
 - java + vue
 - mysql
 
-#### 连接
+##### 连接
 [Let's SSL.com](https://letsssl.com/)
+
+---
 
 ### 工作经历
 
