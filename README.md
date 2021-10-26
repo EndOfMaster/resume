@@ -7,7 +7,7 @@
 
 ### 个人能力
 
-- 自学evm开发生态，如sol、node、web3
+- 自学evm开发生态，如solidity、node、web3
 - 5年java开发，标准java开发生态，如spring、sql、maven、gradle等
 - 集群运维，如docker、k8s、gitlab runner等自动化运维
 - 前端非样式开发，vue、element
