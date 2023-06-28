@@ -1,5 +1,5 @@
 ### 个人介绍
-##### 性别：男
+##### 姓名：王众民 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 性别：男
 ##### 学历：大专 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16年毕业
 ##### 邮箱：wzmwzm1@126.com
 ##### Github：[https://github.com/EndOfMaster](https://github.com/EndOfMaster)
@@ -7,7 +7,7 @@
 
 ### 个人能力
 
-- 自学evm开发生态，如solidity、node、web3
+- 接近三年智能合约开发经验，熟悉生态工具和语言如: solidity、hardhat 以及插件、ethers、truffle、node、web3js
 - 5年java开发，标准java开发生态，如spring、sql、maven、gradle等
 - 集群运维，如docker、k8s、gitlab runner等自动化运维
 - 前端非样式开发，vue、element
@@ -17,10 +17,55 @@
 
 ---
 
+### 个人和社区以及创业项目
 
-### 个人项目
+#### 加密艺术驱动器
+#### 项目介绍
+「加密艺术驱动器」是数字化合物推出的加密原生艺术作品，由10,000件NFT组成。
+
+每件NFT的持有者有权在Nervos公链上通过行权，为词库增加一个词汇。NFT持有者将根据打开作品的时间不同而多次获得驱动器屏幕显示的随机词组，并有1次机会将喜欢的词组固定在屏幕上，这个动作也将被区块链确认，无法更改。
+
+「加密艺术驱动器」把链上共建、参与者博弈作为艺术语言，赋予参与者权力，与创作者共同构建链上去中心化的「共同知识库」。
+
+NFT持有者在元规则下拥有充分的主权和自由，用艺术的方式回应什么是「公链」、什么是「共同知识库」，以及如何在「共识」的机制下参与创造数字生活。
+#### 参与部分
+完整的合约开发和测试，功能包括：
+- 收费铸造，但是随机给予不同稀有度级别的nft
+- owner可以刷新驱动器词汇，并且可以锁定和向词汇池添加词汇
+- 词库合约单一职责的管理词汇，包括添加，查询和随机抽取
+
+#### 连接
+[https://digitalcompound.org/#/projects/crypto-art-driver](https://digitalcompound.org/#/projects/crypto-art-driver)
+[https://opensea.io/collection/crypto-art-driver](https://opensea.io/collection/crypto-art-driver)
+<br>
+
+#### wejuai
+#### 项目介绍
+带有隐私性的贴吧或者论坛项目
+站酷上UI级项目介绍连接 [https://www.zcool.com.cn/work/ZNTM2MDgwNDg=.html](https://www.zcool.com.cn/work/ZNTM2MDgwNDg=.html)
+源网址为 wejuai.com, 小程序为“为聚爱”，现在停止运营开源代码
+#### 链接
+[https://github.com/wejuai](https://github.com/wejuai)
+<br>
+
+
+#### amm mev
+#### 项目介绍
+- 自我研究的内容，主要是套利，是个人未来研究方向
+- 目前有极少的成功次数
+
+<br>
+
+#### wkswap
+#### 项目介绍
+稳定币借贷，可以质押和借贷，存款和借款都会产生利息，利率根据总存款和总借款动态计算，可以质押一种代币同时借款多种代币，会计算仓位安全值，提供了清算接口，可以让清算人来清理即将爆仓的借款。<br>
+清算奖励的1%会存入奖励池来做后续扩展
+
+##### 链接
+[https://github.com/wkswap/wkswap-protocol](https://github.com/wkswap/wkswap-protocol)
+<br>
+
 #### AGIC
-
 #### 项目介绍
 区块链项目，质押eth铸币同时生息，抽取利息的5%存入资金池，发布股权卡nft，根据面额可以提取资金池中的利息
 
@@ -29,7 +74,7 @@
 - 后端服务使用node记录订单和监听合约事件
 
 ##### 使用技术
-- sol + node + vue + web3
+- solidity + node + vue + web3
 - mongo
 
 ##### 连接
@@ -43,16 +88,15 @@
 由于可能无法使用ipfs等文件存储技术，采用了和uniV3一样的链接只返回生成的svg图片模式
 
 ##### 使用技术
-- sol + node + web3
+- solidity + node + web3
 - 独立运行仿evm节点
 
 ##### 连接
-[chainpeak](https://github.com/nipeak/nipeak-digital-copyright-cmbchain)
+[https://github.com/nipeak/nipeak-digital-copyright-cmbchain](https://github.com/nipeak/nipeak-digital-copyright-cmbchain)
 
 <br>
 
 #### Let's ssl
-
 #### 项目介绍
 使用Let's Encrypt签名证书，分为后端和前端两部分
 
@@ -64,14 +108,30 @@
 - mysql
 
 ##### 连接
-[Let's SSL.com](https://letsssl.com/)
+[LetsSSL.com](https://letsssl.com/)
 
 ---
 
 ### 工作经历
 
+##### dforce
+##### 2021.10-2023.6.28 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; solidity智能合约开发
+#### 项目介绍
+dForce is a decentralized stablecoin protocol powered by an integrated DeFi matrix (assets, lending, trading and bridge).
+
+dForce is backed by a number of world class investors (CMBI, Multicoin Capital, Huobi Capital), and are deployed on 8 networks currently, including Ethereum, Arbitrum, Optimism, BSC, Polygon, Avalanche, KAVA, and Conflux.
+#### 参与项目
+- Ethereum mainnet veDF开发
+- aggregator合约以及后端服务开发
+- 聚合saddle和uniswap 优势的amm合约开发
+
+#### 连接
+[https://dforce.network](https://dforce.network/) 
+
+<br>
+
 ##### 北京纬颐科技有限公司
-##### 2021.5-2021.10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sol智能合约开发
+##### 2021.5-2021.10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; solidity智能合约开发
 #### 项目介绍
 1类用户自定义创建资金池，自定金资金池预言机；2类用户进行杠杆买多买空，发放nft的购买凭证。后续功能以及设计:
 
@@ -80,7 +140,7 @@
 3. nft合约沟通业务功能，以及常规的展示功能
 
 ### 使用技术
-sol + node + truffle + openzeppelin
+solidity + node + truffle + openzeppelin
 
 #### 工作内容
 1. 完成合约的内部功能
