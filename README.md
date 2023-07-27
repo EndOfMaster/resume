@@ -17,101 +17,6 @@
 
 ---
 
-### 个人和社区以及创业项目
-
-#### 加密艺术驱动器
-#### 项目介绍
-「加密艺术驱动器」是数字化合物推出的加密原生艺术作品，由10,000件NFT组成。
-
-每件NFT的持有者有权在Nervos公链上通过行权，为词库增加一个词汇。NFT持有者将根据打开作品的时间不同而多次获得驱动器屏幕显示的随机词组，并有1次机会将喜欢的词组固定在屏幕上，这个动作也将被区块链确认，无法更改。
-
-「加密艺术驱动器」把链上共建、参与者博弈作为艺术语言，赋予参与者权力，与创作者共同构建链上去中心化的「共同知识库」。
-
-NFT持有者在元规则下拥有充分的主权和自由，用艺术的方式回应什么是「公链」、什么是「共同知识库」，以及如何在「共识」的机制下参与创造数字生活。
-#### 参与部分
-完整的合约开发和测试，功能包括：
-- 收费铸造，但是随机给予不同稀有度级别的nft
-- owner可以刷新驱动器词汇，并且可以锁定和向词汇池添加词汇
-- 词库合约单一职责的管理词汇，包括添加，查询和随机抽取
-
-#### 连接
-[https://digitalcompound.org/#/projects/crypto-art-driver](https://digitalcompound.org/#/projects/crypto-art-driver)
-[https://opensea.io/collection/crypto-art-driver](https://opensea.io/collection/crypto-art-driver)
-<br>
-
-#### wejuai
-#### 项目介绍
-带有隐私性的贴吧或者论坛项目
-站酷上UI级项目介绍连接 [https://www.zcool.com.cn/work/ZNTM2MDgwNDg=.html](https://www.zcool.com.cn/work/ZNTM2MDgwNDg=.html)
-源网址为 wejuai.com, 小程序为“为聚爱”，现在停止运营开源代码
-#### 链接
-[https://github.com/wejuai](https://github.com/wejuai)
-<br>
-
-
-#### amm mev
-#### 项目介绍
-- 自我研究的内容，主要是套利，是个人未来研究方向
-- 目前有极少的成功次数
-
-<br>
-
-#### wkswap
-#### 项目介绍
-稳定币借贷，可以质押和借贷，存款和借款都会产生利息，利率根据总存款和总借款动态计算，可以质押一种代币同时借款多种代币，会计算仓位安全值，提供了清算接口，可以让清算人来清理即将爆仓的借款。<br>
-清算奖励的1%会存入奖励池来做后续扩展
-
-##### 链接
-[https://github.com/wkswap/wkswap-protocol](https://github.com/wkswap/wkswap-protocol)
-<br>
-
-#### AGIC
-#### 项目介绍
-区块链项目，质押eth铸币同时生息，抽取利息的5%存入资金池，发布股权卡nft，根据面额可以提取资金池中的利息
-
-- 合约只发布到了kovan
-- vue编写页面，有自适应和i18n功能，使用web3调用合约
-- 后端服务使用node记录订单和监听合约事件
-
-##### 使用技术
-- solidity + node + vue + web3
-- mongo
-
-##### 连接
-[Agic.link](https://agic.link/)
-
-<br>
-
-#### 峰链凭证
-#### 项目介绍
-一种部署在招行一链通的购买、交易、核销的nft凭证<br>
-由于可能无法使用ipfs等文件存储技术，采用了和uniV3一样的链接只返回生成的svg图片模式
-
-##### 使用技术
-- solidity + node + web3
-- 独立运行仿evm节点
-
-##### 连接
-[https://github.com/nipeak/nipeak-digital-copyright-cmbchain](https://github.com/nipeak/nipeak-digital-copyright-cmbchain)
-
-<br>
-
-#### Let's ssl
-#### 项目介绍
-使用Let's Encrypt签名证书，分为后端和前端两部分
-
-- vue编写页面，有自适应
-- 后端服务使java调用相关接口
-
-##### 使用技术
-- java + vue
-- mysql
-
-##### 连接
-[LetsSSL.com](https://letsssl.com/)
-
----
-
 ### 工作经历
 
 ##### dforce
@@ -247,3 +152,100 @@ solidity + node + truffle + openzeppelin
 #### 工作内容:
 1. 接入新支付通道
 2. 商户管理后台以及管理后台的数据查询、分析等功能开发
+
+---
+
+### 个人和社区以及创业项目
+
+#### 加密艺术驱动器
+#### 项目介绍
+「加密艺术驱动器」是数字化合物推出的加密原生艺术作品，由10,000件NFT组成。
+
+每件NFT的持有者有权在Nervos公链上通过行权，为词库增加一个词汇。NFT持有者将根据打开作品的时间不同而多次获得驱动器屏幕显示的随机词组，并有1次机会将喜欢的词组固定在屏幕上，这个动作也将被区块链确认，无法更改。
+
+「加密艺术驱动器」把链上共建、参与者博弈作为艺术语言，赋予参与者权力，与创作者共同构建链上去中心化的「共同知识库」。
+
+NFT持有者在元规则下拥有充分的主权和自由，用艺术的方式回应什么是「公链」、什么是「共同知识库」，以及如何在「共识」的机制下参与创造数字生活。
+#### 参与部分
+完整的合约开发和测试，功能包括：
+- 收费铸造，但是随机给予不同稀有度级别的nft
+- owner可以刷新驱动器词汇，并且可以锁定和向词汇池添加词汇
+- 词库合约单一职责的管理词汇，包括添加，查询和随机抽取
+
+#### 连接
+[https://digitalcompound.org/#/projects/crypto-art-driver](https://digitalcompound.org/#/projects/crypto-art-driver)
+[https://opensea.io/collection/crypto-art-driver](https://opensea.io/collection/crypto-art-driver)
+<br>
+
+#### wejuai
+#### 项目介绍
+带有隐私性的贴吧或者论坛项目
+站酷上UI级项目介绍连接 [https://www.zcool.com.cn/work/ZNTM2MDgwNDg=.html](https://www.zcool.com.cn/work/ZNTM2MDgwNDg=.html)
+源网址为 wejuai.com, 小程序为“为聚爱”，现在停止运营开源代码
+#### 链接
+[https://github.com/wejuai](https://github.com/wejuai)
+<br>
+
+
+#### amm mev
+#### 项目介绍
+- 自我研究的内容，主要是套利，是个人未来研究方向
+- 目前有极少的成功次数
+
+<br>
+
+#### wkswap
+#### 项目介绍
+稳定币借贷，可以质押和借贷，存款和借款都会产生利息，利率根据总存款和总借款动态计算，可以质押一种代币同时借款多种代币，会计算仓位安全值，提供了清算接口，可以让清算人来清理即将爆仓的借款。<br>
+清算奖励的1%会存入奖励池来做后续扩展
+
+##### 链接
+[https://github.com/wkswap/wkswap-protocol](https://github.com/wkswap/wkswap-protocol)
+<br>
+
+#### AGIC
+#### 项目介绍
+区块链项目，质押eth铸币同时生息，抽取利息的5%存入资金池，发布股权卡nft，根据面额可以提取资金池中的利息
+
+- 合约只发布到了kovan
+- vue编写页面，有自适应和i18n功能，使用web3调用合约
+- 后端服务使用node记录订单和监听合约事件
+
+##### 使用技术
+- solidity + node + vue + web3
+- mongo
+
+##### 连接
+[Agic.link](https://agic.link/)
+
+<br>
+
+#### 峰链凭证
+#### 项目介绍
+一种部署在招行一链通的购买、交易、核销的nft凭证<br>
+由于可能无法使用ipfs等文件存储技术，采用了和uniV3一样的链上返回生成的svg图片模式
+
+##### 使用技术
+- solidity + node + web3
+- 独立运行仿evm节点
+
+##### 连接
+[https://github.com/nipeak/nipeak-digital-copyright-cmbchain](https://github.com/nipeak/nipeak-digital-copyright-cmbchain)
+
+<br>
+
+#### Let's ssl
+#### 项目介绍
+使用Let's Encrypt签名证书，分为后端和前端两部分
+
+- vue编写页面，有自适应
+- 后端服务使java调用相关接口
+
+##### 使用技术
+- java + vue
+- mysql
+
+##### 连接
+[LetsSSL.com](https://letsssl.com/)
+
+---
